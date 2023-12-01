@@ -22,7 +22,7 @@ module decoder_2_4_tb;
     end
 
     initial begin
-        $monitor("Time = %3d, Input = %2b, Output = %8b",
+        $monitor("Time = %3d, Input = %2b, Output = %4b",
                  $time, a, y);
     end
 
