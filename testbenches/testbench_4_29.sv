@@ -11,14 +11,15 @@ module traffic_lights_tb;
                         .l_a(l_a), 
                         .l_b(l_b));
 
+    // inizializzazione del clock
     initial
         begin
             clock = 1;
-            forever #5 clock = ~clock;
+            forever #5 clock = ~clock;  // vuol dire che, ogni 5 unità di tempo, aggiorna il clock, da 0 a 1 e viceversa
         end
 
         initial begin
-            reset = 1;
+            reset = 1;  // si comincia da S0
             t_a = 1;
             t_b = 0;
             #10;
