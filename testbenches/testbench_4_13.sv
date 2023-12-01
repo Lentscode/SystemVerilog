@@ -27,4 +27,3 @@ module decoder_2_4_tb;
     end
 
 endmodule
-// prova
