@@ -1,4 +1,5 @@
 `timescale 1ns/1ps
+// Esempio di sommatore semplice a N bit
 module sommatore #(
     parameter N = 16
 ) (
