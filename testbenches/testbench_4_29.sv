@@ -42,7 +42,7 @@ module traffic_lights_tb;
         initial 
             begin
                 $monitor("Time = %4d, SensorA = %b, SensorB = %b, VialeAteneo = %2b, VialeAccademia = %2b",
-                         $time, t_a, t_b, l_a, l_b);
+                        $time, t_a, t_b, l_a, l_b);
 
             end
 endmodule

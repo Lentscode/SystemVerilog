@@ -19,7 +19,7 @@ module traffic_lights (
     output logic [1:0] l_a, l_b
 );
     
-    typedef enum logic [1:0] {S0, S1, S2, S3} state;    // definizione stati
+    typedef enum logic [1:0] {S0, S1, S2, S3} state;    // definizione stati  
     state currentstate, nextstate;
 
     always @(posedge clock, posedge reset) 
@@ -51,7 +51,5 @@ module traffic_lights (
             S3: begin l_a = 2'b00; l_b = 2'b01; end
             default: begin l_a = 2'b10; l_b = 2'b00; end
         endcase
-        
-    
         
 endmodule
