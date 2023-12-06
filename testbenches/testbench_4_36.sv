@@ -1,10 +1,10 @@
 `timescale 1ns/1ps
-module automatic_machine_tb;
+module vending_machine_tb;
 
     logic nickel, dime, quarter, clock, reset;
     logic deliver, give_nickel, give_dime, give_doubledime;
 
-    automatic_machine uut(
+    vending_machine uut(
         .nickel(nickel),
         .dime(dime),
         .quarter(quarter),
