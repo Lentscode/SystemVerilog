@@ -75,8 +75,8 @@ endmodule
     Time =   0, Nickel = 0, Dime = 0, Quarter = 0, Deliver = 0, GiveNickel = 0, GiveDime = 0, GiveDoubleDime = 0
     Time =  20, Nickel = 1, Dime = 0, Quarter = 0, Deliver = 0, GiveNickel = 0, GiveDime = 0, GiveDoubleDime = 0
     Time =  40, Nickel = 0, Dime = 1, Quarter = 0, Deliver = 0, GiveNickel = 0, GiveDime = 0, GiveDoubleDime = 0
-    Time =  60, Nickel = 0, Dime = 0, Quarter = 1, Deliver = 1, GiveNickel = 1, GiveDime = 1, GiveDoubleDime = 0
+    Time =  60, Nickel = 0, Dime = 0, Quarter = 1, Deliver = 1, GiveNickel = 1, GiveDime = 1, GiveDoubleDime = 0 (fino a qui giusto)
     Time =  80, Nickel = 0, Dime = 1, Quarter = 0, Deliver = 0, GiveNickel = 0, GiveDime = 0, GiveDoubleDime = 0
-    Time = 100, Nickel = 0, Dime = 0, Quarter = 1, Deliver = 1, GiveNickel = 0, GiveDime = 0, GiveDoubleDime = 0
-    Time = 120, Nickel = 0, Dime = 0, Quarter = 1, Deliver = 0, GiveNickel = 0, GiveDime = 0, GiveDoubleDime = 0
+    Time = 100, Nickel = 0, Dime = 0, Quarter = 1, Deliver = 1, GiveNickel = 0, GiveDime = 0, GiveDoubleDime = 0 (qui si dovrebbe attivare GiveDime)
+    Time = 120, Nickel = 0, Dime = 0, Quarter = 1, Deliver = 0, GiveNickel = 0, GiveDime = 0, GiveDoubleDime = 0 (qui si dovrebbe attivare Deliver)
 */
