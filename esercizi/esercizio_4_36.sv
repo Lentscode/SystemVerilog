@@ -12,7 +12,7 @@ module automatic_machine (
     input logic nickel, dime, quarter, clock, reset,
     output logic deliver, give_nickel, give_dime, give_doubledime
 );
-    typedef enum logic [3:0] {S0, S1, S2, S3, S4, S5, S6, S7, S8, S9} state;
+    typedef enum logic [3:0] {S0, S1, S2, S3, S4, S5, S6, S7, S8, S9} state; // Gli stati indicano il denaro immesso nel distributore. Ogni 5 centesimi si avanza di uno stato.
     state currentstate, nextstate;
 
     always @(posedge clock, posedge reset) begin
