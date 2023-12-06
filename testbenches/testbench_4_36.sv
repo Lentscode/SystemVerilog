@@ -28,26 +28,27 @@ module automatic_machine_tb;
             nickel = 0;
             dime = 0;
             quarter = 0;
-            #10;
+            #20;
 
             reset = 0;
             nickel = 1;
-            #10;
+            #20;
 
             nickel = 0;
             dime = 1;
-            #10;
+            #20;
 
             dime = 0;
             quarter = 1;
-            #10;
+            #20;
 
             dime = 1;
             quarter = 0;
-            #10;
+            #20;
 
             quarter = 1;
             dime = 0;
+            #20;
             $finish;
         end
 
