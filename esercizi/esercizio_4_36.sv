@@ -83,4 +83,3 @@ module vending_machine (
     end
 
 endmodule
-
